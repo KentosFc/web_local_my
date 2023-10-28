@@ -1,0 +1,144 @@
+:root {
+    --accentColor: rgb(0, 218, 170);
+    --font: 'Ubuntu', sans-serif;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg, #ffffff 0%, #00daaa 25%, #ffffff 51%, #ffffff 100%);
+    -webkit-animation: AnimateBG 20s ease infinite;
+            animation: AnimateBG 20s ease infinite;
+
+}
+  
+  @-webkit-keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.head {
+    background-color: #00daaa;
+    padding: 10px;
+    position: sticky;
+    width: auto;
+    top: 0px;
+}
+.head > h3 {
+    color: white;
+    margin: 0;
+}
+
+.box {
+    margin: 20px auto;
+    padding: 20px;
+    height: auto;
+    max-width: 540px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px rgb(143, 142, 142);
+    background-color: white;
+    display: block;
+    transition-duration: 0.5s;
+}
+.box1 {
+    margin: 20px auto;
+    padding: 20px;
+    height: auto;
+    max-width: 540px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px rgb(143, 142, 142);
+    background-color: white;
+    display: inline-block;
+    transition-duration: 0.5s;
+}
+
+/* Width */
+.w-80 {
+    width: 80%;
+}
+.w-85 {
+    width: 85%;
+}
+.w-90 {
+    width: 90%;
+}
+.w-95 {
+    width: 95%;
+}
+
+
+
+.bg-style {
+    background-color: white;
+}
+
+.box:hover {
+    width: 79%;
+    margin: 23px auto;
+    background-color: rgb(137, 255, 216);
+}
+
+.text-box {
+    display: inline-block;
+    padding: 0;
+    margin: 2%;
+    color: rgb(90, 90, 90);
+}
+
+.icon {
+    width: 15px;
+}
+
+.menu {
+    vertical-align: middle;
+}
+.text-menu {
+    font-size: 1.3em;
+}
+
+
+/* BUTTON */
+
+.btn-normal {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #00daaa;
+    font-size: 0.9em;
+}
+.btn-normal:hover {
+    background-color: #00b18a;
+}
